@@ -5,6 +5,16 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="Хранилище Esoft_ProjectModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AgentsSet">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="MiddleName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DealShare" Type="int" />
+        </EntityType>
         <EntityType Name="ClientSet">
           <Key>
             <PropertyRef Name="Id" />
@@ -17,6 +27,7 @@
           <Property Name="Email" Type="nvarchar(max)" />
         </EntityType>
         <EntityContainer Name="Хранилище Esoft_ProjectModelContainer">
+          <EntitySet Name="AgentsSet" EntityType="Self.AgentsSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ClientSet" EntityType="Self.ClientSet" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
@@ -24,6 +35,16 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Esoft_ProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AgentsSet">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MiddleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DealShare" Type="Int32" />
+        </EntityType>
         <EntityType Name="ClientSet">
           <Key>
             <PropertyRef Name="Id" />
@@ -35,7 +56,8 @@
           <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityContainer Name="Esoft_ProjectEntities2" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Esoft_ProjectEntities4" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AgentsSet" EntityType="Self.AgentsSet" />
           <EntitySet Name="ClientSet" EntityType="Self.ClientSet" />
         </EntityContainer>
       </Schema>
@@ -43,7 +65,18 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище Esoft_ProjectModelContainer" CdmEntityContainer="Esoft_ProjectEntities2">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Esoft_ProjectModelContainer" CdmEntityContainer="Esoft_ProjectEntities4">
+          <EntitySetMapping Name="AgentsSet">
+            <EntityTypeMapping TypeName="Esoft_ProjectModel.AgentsSet">
+              <MappingFragment StoreEntitySet="AgentsSet">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="DealShare" ColumnName="DealShare" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="ClientSet">
             <EntityTypeMapping TypeName="Esoft_ProjectModel.ClientSet">
               <MappingFragment StoreEntitySet="ClientSet">

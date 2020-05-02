@@ -6,7 +6,7 @@ using System.Windows.Forms;
 static class Program
     {
     /// <summary>
-    public static Esoft_ProjectEntities2 esoft = new Esoft_ProjectEntities2();
+    public static Esoft_ProjectEntities4 esoft = new Esoft_ProjectEntities4();
     /// Главная точка входа для приложения.
     /// </summary>
     [STAThread]

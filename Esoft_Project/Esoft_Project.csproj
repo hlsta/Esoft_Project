@@ -55,8 +55,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentsSet.cs">
+      <DependentUpon>ModelTutorial.tt</DependentUpon>
+    </Compile>
     <Compile Include="ClientSet.cs">
       <DependentUpon>ModelTutorial.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgent.Designer.cs">
+      <DependentUpon>FormAgent.cs</DependentUpon>
     </Compile>
     <Compile Include="FormClient.cs">
       <SubType>Form</SubType>
@@ -87,6 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAgent.resx">
+      <DependentUpon>FormAgent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormClient.resx">
       <DependentUpon>FormClient.cs</DependentUpon>
     </EmbeddedResource>

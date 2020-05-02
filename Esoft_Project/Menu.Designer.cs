@@ -50,7 +50,7 @@
             // 
             // buttonOpenClients
             // 
-            this.buttonOpenClients.Location = new System.Drawing.Point(2, 145);
+            this.buttonOpenClients.Location = new System.Drawing.Point(7, 133);
             this.buttonOpenClients.Name = "buttonOpenClients";
             this.buttonOpenClients.Size = new System.Drawing.Size(265, 48);
             this.buttonOpenClients.TabIndex = 1;
@@ -60,16 +60,17 @@
             // 
             // buttonOpenAgents
             // 
-            this.buttonOpenAgents.Location = new System.Drawing.Point(2, 226);
+            this.buttonOpenAgents.Location = new System.Drawing.Point(7, 207);
             this.buttonOpenAgents.Name = "buttonOpenAgents";
             this.buttonOpenAgents.Size = new System.Drawing.Size(265, 48);
             this.buttonOpenAgents.TabIndex = 2;
             this.buttonOpenAgents.Text = "Риелторы";
             this.buttonOpenAgents.UseVisualStyleBackColor = true;
+            this.buttonOpenAgents.Click += new System.EventHandler(this.buttonOpenAgents_Click);
             // 
             // buttonOpenRealEstates
             // 
-            this.buttonOpenRealEstates.Location = new System.Drawing.Point(2, 302);
+            this.buttonOpenRealEstates.Location = new System.Drawing.Point(7, 281);
             this.buttonOpenRealEstates.Name = "buttonOpenRealEstates";
             this.buttonOpenRealEstates.Size = new System.Drawing.Size(265, 48);
             this.buttonOpenRealEstates.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             // buttonOpenDemands
             // 
-            this.buttonOpenDemands.Location = new System.Drawing.Point(2, 369);
+            this.buttonOpenDemands.Location = new System.Drawing.Point(7, 355);
             this.buttonOpenDemands.Name = "buttonOpenDemands";
             this.buttonOpenDemands.Size = new System.Drawing.Size(265, 48);
             this.buttonOpenDemands.TabIndex = 4;
@@ -87,7 +88,7 @@
             // 
             // buttonOpenSupplies
             // 
-            this.buttonOpenSupplies.Location = new System.Drawing.Point(2, 435);
+            this.buttonOpenSupplies.Location = new System.Drawing.Point(7, 429);
             this.buttonOpenSupplies.Name = "buttonOpenSupplies";
             this.buttonOpenSupplies.Size = new System.Drawing.Size(265, 48);
             this.buttonOpenSupplies.TabIndex = 5;
@@ -96,7 +97,7 @@
             // 
             // buttonOpenDeals
             // 
-            this.buttonOpenDeals.Location = new System.Drawing.Point(2, 501);
+            this.buttonOpenDeals.Location = new System.Drawing.Point(7, 501);
             this.buttonOpenDeals.Name = "buttonOpenDeals";
             this.buttonOpenDeals.Size = new System.Drawing.Size(265, 48);
             this.buttonOpenDeals.TabIndex = 6;

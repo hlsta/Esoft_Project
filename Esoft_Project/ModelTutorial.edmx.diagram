@@ -4,8 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6457c5dc07d445b897f1f53cb722f3c9" Name="Diagram1">
-        <EntityTypeShape EntityType="Esoft_ProjectModel.ClientSet" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+      <Diagram DiagramId="c6eb9a66e6164424a682c4806b27de11" Name="Diagram1">
+        <EntityTypeShape EntityType="Esoft_ProjectModel.AgentsSet" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Esoft_ProjectModel.ClientSet" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
