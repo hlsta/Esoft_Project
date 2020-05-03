@@ -51,9 +51,11 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(233, 417);
+            this.buttonAdd.Location = new System.Drawing.Point(380, 405);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(15);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(94, 40);
+            this.buttonAdd.Padding = new System.Windows.Forms.Padding(10);
+            this.buttonAdd.Size = new System.Drawing.Size(94, 48);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -61,9 +63,11 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(379, 417);
+            this.buttonEdit.Location = new System.Drawing.Point(482, 405);
+            this.buttonEdit.Margin = new System.Windows.Forms.Padding(15);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(91, 40);
+            this.buttonEdit.Padding = new System.Windows.Forms.Padding(10);
+            this.buttonEdit.Size = new System.Drawing.Size(91, 48);
             this.buttonEdit.TabIndex = 1;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -71,9 +75,11 @@
             // 
             // buttonDell
             // 
-            this.buttonDell.Location = new System.Drawing.Point(520, 417);
+            this.buttonDell.Location = new System.Drawing.Point(581, 405);
+            this.buttonDell.Margin = new System.Windows.Forms.Padding(15);
             this.buttonDell.Name = "buttonDell";
-            this.buttonDell.Size = new System.Drawing.Size(91, 40);
+            this.buttonDell.Padding = new System.Windows.Forms.Padding(10);
+            this.buttonDell.Size = new System.Drawing.Size(91, 48);
             this.buttonDell.TabIndex = 2;
             this.buttonDell.Text = "Удалить";
             this.buttonDell.UseVisualStyleBackColor = true;
@@ -82,7 +88,7 @@
             // labelFirstName
             // 
             this.labelFirstName.AutoSize = true;
-            this.labelFirstName.Location = new System.Drawing.Point(18, 35);
+            this.labelFirstName.Location = new System.Drawing.Point(9, 35);
             this.labelFirstName.Name = "labelFirstName";
             this.labelFirstName.Size = new System.Drawing.Size(29, 13);
             this.labelFirstName.TabIndex = 3;
@@ -91,7 +97,7 @@
             // labelMiddleName
             // 
             this.labelMiddleName.AutoSize = true;
-            this.labelMiddleName.Location = new System.Drawing.Point(18, 96);
+            this.labelMiddleName.Location = new System.Drawing.Point(9, 96);
             this.labelMiddleName.Name = "labelMiddleName";
             this.labelMiddleName.Size = new System.Drawing.Size(54, 13);
             this.labelMiddleName.TabIndex = 4;
@@ -100,20 +106,21 @@
             // labelLastName
             // 
             this.labelLastName.AutoSize = true;
-            this.labelLastName.Location = new System.Drawing.Point(18, 165);
+            this.labelLastName.Location = new System.Drawing.Point(9, 161);
             this.labelLastName.Name = "labelLastName";
-            this.labelLastName.Size = new System.Drawing.Size(56, 13);
+            this.labelLastName.Size = new System.Drawing.Size(53, 13);
             this.labelLastName.TabIndex = 5;
             this.labelLastName.Text = "Фамилия";
             // 
             // DealShare
             // 
             this.DealShare.AutoSize = true;
-            this.DealShare.Location = new System.Drawing.Point(18, 231);
+            this.DealShare.Location = new System.Drawing.Point(9, 227);
             this.DealShare.Name = "DealShare";
-            this.DealShare.Size = new System.Drawing.Size(101, 13);
+            this.DealShare.Size = new System.Drawing.Size(100, 13);
             this.DealShare.TabIndex = 6;
             this.DealShare.Text = "Доля от комиссии";
+            this.DealShare.Click += new System.EventHandler(this.DealShare_Click);
             // 
             // listViewAgent
             // 
@@ -126,10 +133,10 @@
             this.listViewAgent.FullRowSelect = true;
             this.listViewAgent.GridLines = true;
             this.listViewAgent.HideSelection = false;
-            this.listViewAgent.Location = new System.Drawing.Point(203, 12);
+            this.listViewAgent.Location = new System.Drawing.Point(232, 12);
             this.listViewAgent.MultiSelect = false;
             this.listViewAgent.Name = "listViewAgent";
-            this.listViewAgent.Size = new System.Drawing.Size(469, 403);
+            this.listViewAgent.Size = new System.Drawing.Size(440, 379);
             this.listViewAgent.TabIndex = 7;
             this.listViewAgent.UseCompatibleStateImageBehavior = false;
             this.listViewAgent.View = System.Windows.Forms.View.Details;
@@ -153,47 +160,47 @@
             // columnHeader4
             // 
             this.columnHeader4.Text = "Фамилия";
-            this.columnHeader4.Width = 109;
+            this.columnHeader4.Width = 92;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Доля от комиссии";
-            this.columnHeader5.Width = 86;
+            this.columnHeader5.Width = 105;
             // 
             // textBoxFirstName
             // 
-            this.textBoxFirstName.Location = new System.Drawing.Point(21, 51);
+            this.textBoxFirstName.Location = new System.Drawing.Point(12, 51);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(162, 20);
+            this.textBoxFirstName.Size = new System.Drawing.Size(205, 21);
             this.textBoxFirstName.TabIndex = 8;
             // 
             // textBoxMiddleName
             // 
-            this.textBoxMiddleName.Location = new System.Drawing.Point(21, 112);
+            this.textBoxMiddleName.Location = new System.Drawing.Point(12, 112);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(162, 20);
+            this.textBoxMiddleName.Size = new System.Drawing.Size(205, 21);
             this.textBoxMiddleName.TabIndex = 9;
             // 
             // textBoxLastName
             // 
-            this.textBoxLastName.Location = new System.Drawing.Point(21, 181);
+            this.textBoxLastName.Location = new System.Drawing.Point(12, 177);
             this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(162, 20);
+            this.textBoxLastName.Size = new System.Drawing.Size(205, 21);
             this.textBoxLastName.TabIndex = 10;
             // 
             // textBoxDealShare
             // 
-            this.textBoxDealShare.Location = new System.Drawing.Point(21, 247);
+            this.textBoxDealShare.Location = new System.Drawing.Point(12, 243);
             this.textBoxDealShare.Name = "textBoxDealShare";
-            this.textBoxDealShare.Size = new System.Drawing.Size(162, 20);
+            this.textBoxDealShare.Size = new System.Drawing.Size(205, 21);
             this.textBoxDealShare.TabIndex = 11;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Esoft_Project.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(-7, 395);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 390);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(204, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(161, 59);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -216,6 +223,7 @@
             this.Controls.Add(this.buttonDell);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonAdd);
+            this.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "FormAgent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Риелторы";

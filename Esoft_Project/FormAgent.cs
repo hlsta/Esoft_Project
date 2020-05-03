@@ -101,5 +101,10 @@ namespace Esoft_Project
                 MessageBox.Show("Невозможно удалить, эта запись используется", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void DealShare_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
