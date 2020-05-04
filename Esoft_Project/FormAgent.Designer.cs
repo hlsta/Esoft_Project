@@ -51,11 +51,11 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(380, 405);
+            this.buttonAdd.Location = new System.Drawing.Point(341, 405);
             this.buttonAdd.Margin = new System.Windows.Forms.Padding(15);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Padding = new System.Windows.Forms.Padding(10);
-            this.buttonAdd.Size = new System.Drawing.Size(94, 48);
+            this.buttonAdd.Size = new System.Drawing.Size(105, 48);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -63,11 +63,11 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(482, 405);
+            this.buttonEdit.Location = new System.Drawing.Point(455, 405);
             this.buttonEdit.Margin = new System.Windows.Forms.Padding(15);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Padding = new System.Windows.Forms.Padding(10);
-            this.buttonEdit.Size = new System.Drawing.Size(91, 48);
+            this.buttonEdit.Size = new System.Drawing.Size(105, 48);
             this.buttonEdit.TabIndex = 1;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -75,11 +75,11 @@
             // 
             // buttonDell
             // 
-            this.buttonDell.Location = new System.Drawing.Point(581, 405);
+            this.buttonDell.Location = new System.Drawing.Point(567, 405);
             this.buttonDell.Margin = new System.Windows.Forms.Padding(15);
             this.buttonDell.Name = "buttonDell";
             this.buttonDell.Padding = new System.Windows.Forms.Padding(10);
-            this.buttonDell.Size = new System.Drawing.Size(91, 48);
+            this.buttonDell.Size = new System.Drawing.Size(105, 48);
             this.buttonDell.TabIndex = 2;
             this.buttonDell.Text = "Удалить";
             this.buttonDell.UseVisualStyleBackColor = true;

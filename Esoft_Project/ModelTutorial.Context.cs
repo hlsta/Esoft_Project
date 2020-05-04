@@ -28,5 +28,6 @@ namespace Esoft_Project
         public virtual DbSet<AgentsSet> AgentsSet { get; set; }
         public virtual DbSet<ClientSet> ClientSet { get; set; }
         public virtual DbSet<RealEstateSet> RealEstateSet { get; set; }
+        public virtual DbSet<SupplySet> SupplySet { get; set; }
     }
 }

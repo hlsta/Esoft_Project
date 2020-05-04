@@ -425,11 +425,11 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(372, 405);
-            this.buttonAdd.Margin = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.buttonAdd.Location = new System.Drawing.Point(330, 405);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(15);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.buttonAdd.Size = new System.Drawing.Size(91, 48);
+            this.buttonAdd.Padding = new System.Windows.Forms.Padding(10);
+            this.buttonAdd.Size = new System.Drawing.Size(105, 48);
             this.buttonAdd.TabIndex = 24;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -437,11 +437,11 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(471, 405);
-            this.buttonEdit.Margin = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.buttonEdit.Location = new System.Drawing.Point(443, 405);
+            this.buttonEdit.Margin = new System.Windows.Forms.Padding(15);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.buttonEdit.Size = new System.Drawing.Size(91, 48);
+            this.buttonEdit.Padding = new System.Windows.Forms.Padding(10);
+            this.buttonEdit.Size = new System.Drawing.Size(105, 48);
             this.buttonEdit.TabIndex = 25;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -449,11 +449,11 @@
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(570, 405);
-            this.buttonDel.Margin = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.buttonDel.Location = new System.Drawing.Point(555, 405);
+            this.buttonDel.Margin = new System.Windows.Forms.Padding(15);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.buttonDel.Size = new System.Drawing.Size(91, 48);
+            this.buttonDel.Padding = new System.Windows.Forms.Padding(10);
+            this.buttonDel.Size = new System.Drawing.Size(105, 48);
             this.buttonDel.TabIndex = 26;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = true;

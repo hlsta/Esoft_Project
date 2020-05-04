@@ -213,6 +213,7 @@ namespace Esoft_Project
                     realEstate.TotalArea = Convert.ToDouble(textBoxTotalArea.Text);
                     Program.esoft.SaveChanges();
                     ShowRealEstateSet();
+                    
                 }
             }
         }
