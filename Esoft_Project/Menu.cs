@@ -40,6 +40,12 @@ namespace Esoft_Project
             Form fromSupply = new FormSupply();
             fromSupply.Show();
         }
+
+        private void buttonOpenSupplies_Click(object sender, EventArgs e)
+        {
+            Form fromDemand = new FormDemand();
+            fromDemand.Show();
+        }
     }
 }   
 
