@@ -4,13 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1d4d8cae08304f38b1882123e725ff7d" Name="Diagram1">
+      <Diagram DiagramId="4a85ed9264b7496e9877dfeed328667f" Name="Diagram1">
         <EntityTypeShape EntityType="Esoft_ProjectModel.AgentsSet" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
         <EntityTypeShape EntityType="Esoft_ProjectModel.ClientSet" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="Esoft_ProjectModel.DealSet" Width="1.5" PointX="8.25" PointY="6.5" IsExpanded="true" />
         <EntityTypeShape EntityType="Esoft_ProjectModel.DemandSet" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
         <EntityTypeShape EntityType="Esoft_ProjectModel.RealEstateSet" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Esoft_ProjectModel.SupplySet" Width="1.5" PointX="6" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Esoft_ProjectModel.Users" Width="1.5" PointX="5.75" PointY="3.125" IsExpanded="true" />
         <AssociationConnector Association="Esoft_ProjectModel.FK_DemandSet_AgentsSet" ManuallyRouted="false" />
         <AssociationConnector Association="Esoft_ProjectModel.FK_SupplySet_AgentsSet" ManuallyRouted="false" />
         <AssociationConnector Association="Esoft_ProjectModel.FK_DemandSet_ClientSet" ManuallyRouted="false" />
